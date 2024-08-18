@@ -87,19 +87,18 @@ app.get("/", (c) => {
               </button>
             </form>
           </div>
-          <div className="mt-4 text-center text-sm text-gray-500 flex items-center justify-center">
-            <span className="mr-2 pt-2">Powered by</span>
-            <a
-              href="https://developers.cloudflare.com/workers-ai/"
-              target="_blank"
-            >
+          <div className="flex">
+            <a href="https://aristotlepippa.pages.dev" target="_blank">
               <img
-                src="/static/cloudflare-logo.png"
-                alt="Cloudflare Logo"
-                className="h-6 inline"
+                src="/static/aristotle-qr-code.png"
+                alt="Aristotle-QR-Code"
+                className="max-w-full h-auto"
               />
             </a>
           </div>
+            <div className="mt-4">
+              AP&copy; 2024 - All Rights Reserved
+            </div>
         </div>
       </div>
       <script src="/static/script.js"></script>
